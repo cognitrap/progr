@@ -18,4 +18,3 @@ dependencies:
   - mayavi
   - ipyevents
   - ipympl
-prefix: /home/luleka/anaconda3
