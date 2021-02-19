@@ -1,3 +1,8 @@
-name: example-environment
+name: ipympl
+channels:
+  - conda-forge
 dependencies:
-  - ipympl
+  - numpy
+  - jupyterlab=3
+  - matplotlib-base>=2.2.2
+  - ipympl=0.6.3
