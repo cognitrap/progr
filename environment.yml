@@ -1,6 +1,21 @@
-name: test1
-dependencies:  
-    - ipympl
-    - pip
-    - pip:
-    - ipympl
+name: grund210219
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda
+  - python
+  - conda-env
+  - conda-build
+  - conda-verify
+  - _ipyw_jlab_nb_ext_conf
+  - anaconda
+  - anaconda-navigator
+  - navigator-updater
+  - jupyterlab_widgets
+  - ipywidgets
+  - pysimplegui
+  - mayavi
+  - ipyevents
+  - ipympl
+prefix: /home/luleka/anaconda3
