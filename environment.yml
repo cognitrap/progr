@@ -1,8 +1,3 @@
-name: ipympl
-channels:
-  - conda-forge
-dependencies:
-  - numpy
-  - jupyterlab=3
-  - matplotlib-base>=2.2.2
-  - ipympl=0.6.3
+name: test1
+dependencies:  
+    - ipympl
