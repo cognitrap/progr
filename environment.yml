@@ -1,10 +1,10 @@
-name: grund210219
+name: base
 channels:
   - conda-forge
   - defaults
 dependencies:
+  - conda
   - python
-  - pysimplegui
   - conda-env
   - conda-build
   - conda-verify
@@ -14,7 +14,9 @@ dependencies:
   - navigator-updater
   - jupyterlab_widgets
   - ipywidgets
+  - pysimplegui
   - mayavi
   - ipyevents
   - ipympl
   - sympy
+prefix: /home/luleka/anaconda3
