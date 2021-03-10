@@ -19,4 +19,7 @@ dependencies:
   - ipyevents
   - ipympl
   - sympy
+  - pip
+  - pip:
+    - pysimplegui
 prefix: /home/luleka/anaconda3
