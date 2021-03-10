@@ -14,13 +14,9 @@ dependencies:
   - navigator-updater
   - jupyterlab_widgets
   - ipywidgets
-  - tkinter
   - pysimplegui
   - mayavi
   - ipyevents
   - ipympl
   - sympy
-  - pip
-  - pip:
-    - pysimplegui
-prefix: /home/luleka/anaconda3
+  prefix: /home/luleka/anaconda3
