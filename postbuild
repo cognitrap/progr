@@ -1,0 +1,11 @@
+set -e
+jupyter contrib nbextension install --user
+jupyter nbextension enable --py widgetsnbextension
+
+jupyter contrib PySimpleGUI install --user
+jupyter PySimpleGUI enable --py widgetsnbextension
+
+jupyter contrib PySimpleGUIWeb install --user
+jupyter PySimpleGUIWeb enable --py widgetsnbextension
+
+jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38 --minimize=False
