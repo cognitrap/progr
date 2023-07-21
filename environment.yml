@@ -32,8 +32,6 @@ dependencies:
   - icu
   - libffi
   - intel-openmp
-  - rise
-  - jupyterlab_rise
   - ipywidgets
   - matplotlib
 prefix: /home/luleka/anaconda3
