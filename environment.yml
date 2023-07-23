@@ -1,37 +1,23 @@
 name: base
 channels:
-  - forge
   - defaults
 dependencies:
+  - _anaconda_depends
+  - python=3.11
+  - setuptools
+  - pip
+  - wheel
+  - anaconda-catalogs
+  - anaconda-client
+  - anaconda-project
+  - anaconda-navigator
   - conda
-  - python
-  - conda-env
   - conda-build
+  - conda-content-trust
+  - conda-libmamba-solver
+  - conda-pack
+  - conda-package-handling
+  - conda-package-streaming
+  - conda-token
   - conda-verify
-  - _ipyw_jlab_nb_ext_conf
-  - anaconda
-  - anaconda-navigator==2.3.2
-  - navigator-updater
-  - jupyterlab
-  - autopep8
-  - pytest-pep8
-  - pandoc
-  - nodejs
-  - notebook
-  - qtconsole
-  - ipympl
-  - nbconvert
-  - numpy
-  - spyder
-  - mistune
-  - scipy
-  - mkl
-  - bokeh
-  - widgetsnbextension
-  - hdf5
-  - icu
-  - libffi
-  - intel-openmp
-  - ipywidgets
-  - matplotlib
 prefix: /home/luleka/anaconda3
